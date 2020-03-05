@@ -18,7 +18,6 @@ public class Main {
         for(int i = 0; i < n; i++) {
             result += f.applyAsDouble(a + h * (i + 0.5));
         }
-
         result *= h;
 
         return result;
